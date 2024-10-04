@@ -1,0 +1,39 @@
+#subtitle {
+    color: #FFFFFF;
+    font-weight: lighter;
+    font-size: 1em;
+}
+#list {
+    display: flex;
+    flex-direction: column;
+}
+
+.name-category {
+    position: relative;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.action-btn {
+    background: none;
+    border: none;
+    height: 32px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.action-btn > img {
+    width: 24px;
+    height: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: #151515;
+    font-weight: 700;
+}

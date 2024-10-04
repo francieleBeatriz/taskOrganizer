@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/global.css" />
+    <script type="module" src="js/main.js" defer></script>
+    <title>TaskOrganizer</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="title">TaskOrganizer</h1>
+      <h2 id="subtitle">Organize suas tarefas, otimize seu tempo.</h2>
+    </header>
+    <main>
+      <div id="content">
+        <div id="search-bar">
+          <input
+            type="text"
+            placeholder="Insira suas categorias..."
+            id="input-category"
+          />
+          <button id="btn-adicionar">
+            <img
+              src="images/icon-add.svg"
+              alt="ìcone do botão de adicionar nova categoria."
+            />
+          </button>
+        </div>
+        <div id="card">
+          <ul id="list"></ul>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
